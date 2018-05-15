@@ -1,0 +1,16 @@
+server:
+  port: 8088
+  # tomcat设置
+  tomcat:
+    accesslog:
+    # 开启日志访问
+      enabled: true
+    # 日志保存路径
+      directory: E:/
+  
+logging:
+  level: 
+    com:
+      example: 
+        dao: debug
+
